@@ -266,3 +266,24 @@ cat 9-John_Doe
 cd shell_permissions
 cat 9-John_Doe
 nano 9-Jhon_Doe
+cd shell_permissions
+nano 9-John_Doe
+chmod +x 9-John_Doe
+./9-John_Doe
+cd ..
+git add .
+git commit -m "14th"
+git push -u origin main
+cd shell_permissions
+nano 9-John_Doe
+chmod +x 9-John_Doe
+./9-John_Doe
+git add .
+git commit -m "15th"
+git push -u origin main
+nano 9-John_Doe
+chmod +x 9-John_Doe
+./9-John_Doe
+git add .
+git commit -m "16th"
+git push -u origin main
